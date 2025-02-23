@@ -180,7 +180,7 @@ def update_dashboard(selected_tab, selected_hotel, selected_segment, selected_mo
                 dbc.Col(dcc.Graph(figure=fig2), width=6),
             ]
         )
-
+server = app.server
 # Run the app
 if __name__ == "__main__":
     app.run_server(debug=True, port=8080)
