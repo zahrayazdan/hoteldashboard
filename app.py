@@ -1,6 +1,3 @@
-# Install required libraries (Run this only once)
-!pip install dash dash-bootstrap-components plotly pandas
-
 # Import libraries
 import dash
 import dash_bootstrap_components as dbc
